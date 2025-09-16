@@ -1,0 +1,14 @@
+/* src/styles/Sidebar.css */
+
+.sidebar {
+  @apply w-64 text-white flex flex-col p-6 shadow-2xl;
+  background: linear-gradient(180deg, #1e3c72, #2a5298);
+}
+
+.sidebar button {
+  @apply text-left px-4 py-2 rounded-lg transition;
+}
+
+.sidebar button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

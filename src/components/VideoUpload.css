@@ -1,0 +1,11 @@
+/* src/styles/VideoUpload.css */
+
+.card {
+  @apply bg-white rounded-xl shadow-lg p-6;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+}
